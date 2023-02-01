@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ndoe server.js"
   },
-  "author": "Dalpat singh rathore ",
+  "author": "Dalpat singh rathore",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
@@ -32,5 +32,14 @@
     "nodemailer-pug-engine": "^2.0.1",
     "nodemon": "^2.0.20",
     "pug": "^3.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalpat49/g-shoppers-ecommerce-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dalpat49/g-shoppers-ecommerce-website/issues"
+  },
+  "homepage": "https://github.com/dalpat49/g-shoppers-ecommerce-website#readme"
 }
