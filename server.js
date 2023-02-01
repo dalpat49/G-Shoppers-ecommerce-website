@@ -12,7 +12,7 @@ const app = express();
 app.use(cookieparser());
 
 const port =  process.env.PORT || 10000 ;
-host = "localhost"
+
 
 
 app.set(express.urlencoded({ extended: true }));
@@ -30,7 +30,7 @@ app.use('/',route);
 
 
 //server
-app.listen(port,host, () => {
+app.listen(port, () => {
     console.log(`server has  been started at ${port}`)
 })
 
